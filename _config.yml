@@ -82,8 +82,8 @@ analytics:
 author:
   name             : "Benjamin Devlin, B.S."
   avatar           : "ben.png"
-  bio              : "Hi! I am currently a 4th year graduate student in Staci Bilbo's lab at Duke. My research is primarily focused on how the immune system interacts with 
-                      the brain in development and how these interactions contribute to both early and later-life disease. I passionate about teaching and mentoring the next generation of scientists"
+  bio              : "Hi! I am currently a 4th year graduate student in Staci Bilbo's lab at Duke. My research is focused on how the immune system interacts with 
+                      the brain in development and disease. I am passionate about teaching and mentoring, doing lab science, and data accessibility"
   location         : "Duke University"
   employer         : 
   pubmed           : "https://pubmed.ncbi.nlm.nih.gov/?term=Devlin+Benjamin"
@@ -130,8 +130,7 @@ exclude:
   - .bundle
   - .jekyll-assets-cache
   - .sass-cache
-  - CHANGELOG
-  - Capfile
+  - CHANGELOG  - Capfile
   - Gemfile
   - Gruntfile.js
   - LICENSE
@@ -223,6 +222,15 @@ defaults:
   - scope:
       path: ""
       type: publications
+    values:
+      layout: single
+      author_profile: true
+      share: true
+      comments: true
+
+  - scope:
+      path: ""
+      type: research
     values:
       layout: single
       author_profile: true
