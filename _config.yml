@@ -7,10 +7,10 @@
 
 # Site Settings
 locale                   : "en-US"
-title                    : "Ben Devlin / Site Title"
+title                    : "Ben Devlin"
 title_separator          : "-"
-name                     : &name "Ben Devlin"
-description              : &description "personal description"
+name                     : &name "Ben Devlin, B.S. in Neuroscience"
+description              : &description "Graduate Student"
 url                      : https://bendevlin18.github.io # the base hostname & protocol for your site e.g. "https://mmistakes.github.io"
 baseurl                  : "" # the subpath of your site, e.g. "/blog"
 repository               : "bendevlin18/bendevlin18.github.io"
@@ -80,14 +80,14 @@ analytics:
 
 # Site Author
 author:
-  name             : "Your Sidebar Name"
-  avatar           : "profile.png"
-  bio              : "Your biography for the left-hand sidebar"
-  location         : "Location"
-  employer         :
-  pubmed           : "https://www.ncbi.nlm.nih.gov/pubmed/?term=john+snow"
-  googlescholar    : "http://yourfullgooglescholarurl.com"
-  email            :
+  name             : "Benjamin Devlin, B.S."
+  avatar           : "ben.png"
+  bio              : "Hi! I am interested in studying how glia interact with neurons in development and how these interactions contribute to both early and later-life disease."
+  location         : "Duke University"
+  employer         : "4th Year Graduate Student"
+  pubmed           : "https://pubmed.ncbi.nlm.nih.gov/?term=Devlin+Benjamin"
+  googlescholar    : "https://scholar.google.com/citations?user=uoB4xPMAAAAJ&hl=en&oi=sra"
+  email            : "benjamin.devlin@duke.edu"
   researchgate     :  # example: "https://www.researchgate.net/profile/yourprofile"
   uri              :
   bitbucket        :
@@ -96,20 +96,20 @@ author:
   flickr           :
   facebook         :
   foursquare       :
-  github           : "academicpages"
+  github           : "bendevlin18"
   google_plus      :
   keybase          :
   instagram        :
-  impactstory      : #"https://profiles.impactstory.org/u/xxxx-xxxx-xxxx-xxxx"
+  impactstory      : 
   lastfm           :
   linkedin         :
-  orcid            : "http://orcid.org/yourorcidurl"
+  orcid            : "https://orcid.org/0000-0003-0174-547X"
   pinterest        :
   soundcloud       :
-  stackoverflow    : # http://stackoverflow.com/users/123456/username
+  stackoverflow    : 
   steam            :
   tumblr           :
-  twitter          : "replacethistwitterhandle"
+  twitter          : "bendevlin18"
   vine             :
   weibo            :
   xing             :
@@ -228,14 +228,14 @@ defaults:
       share: true
       comments: true
   # _portfolio
-  - scope:
-      path: ""
-      type: portfolio
-    values:
-      layout: single
-      author_profile: true
-      share: true
-      comment: true
+  #- scope:
+   #   path: ""
+    #  type: portfolio
+    #values:
+     # layout: single
+      #author_profile: true
+      #share: true
+      #comment: true
   # _talks
   - scope:
       path: ""
