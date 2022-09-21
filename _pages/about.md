@@ -1,6 +1,6 @@
 ---
 permalink: /
-title: "Welcome to my Profession Website"
+title: 
 excerpt: "About me"
 author_profile: true
 redirect_from: 
@@ -8,7 +8,7 @@ redirect_from:
   - /about.html
 ---
 
-Personal Statement
+About Me
 ====
 I am interested in studying how glia interact with neurons in development and how these interactions
 contribute to both early and later-life disease. In the long term, it is my goal to establish an independent
