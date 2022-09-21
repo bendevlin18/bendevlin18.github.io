@@ -1,6 +1,6 @@
 ---
 permalink: /
-title: "Welcome to my Profession Websiue"
+title: "Welcome to my Profession Website"
 excerpt: "About me"
 author_profile: true
 redirect_from: 
