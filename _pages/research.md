@@ -3,11 +3,10 @@ permalink: /research/
 title: "Research"
 author_profile: true
 redirect_from: 
-
 ---
 
 ## Environmental exposures, development, and microglia
-
+---
 Since joining the Bilbo lab in the fall semester of 2019, I have had the opportunity to collaborate on several
 projects in the lab investigating the intersection between environmental exposures and development, with a
 special focus on how microglia translate early-life challenges to later life changes in brain and behavior. The
