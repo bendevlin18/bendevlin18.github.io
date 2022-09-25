@@ -3,9 +3,11 @@ layout: archive
 title: "Teaching"
 permalink: /teaching/
 author_profile: true
+
 ---
 
 ## Overview
+
 I personally believe that getting students excited about class topics is critical to their engagement and eventual learning of the material. Thus, ***it is imperative to establish a level of enthusiasm in my students that is tangible, and extends beyond the classroom, since I believe this is essential to their engagement, acquisition, and future use of the material***. Moreover, I believe that if students are truly interested in the topics being discussed, they will be more likely to remember and use the material covered in class in their future endeavors. Finally, I strive to provide an inclusive, comfortable, and encouraging environment for students to learn and share ideas.
 
 I have been fortunate enough to have a variety of teaching and mentoring opportunities as both an undergraduate and a Graduate student. I have primarily served as a teaching assistant for undergraduate classes such as introductory neuroscience and psychology, molecular neuroscience, physiological psychology, and biology. When I first stood in front of a classroom of students, I was definitely not the best version of a teacher I could be. One of my biggest weaknesses was that I often didn’t know when to shut up and assess student understanding through questions and group activities. These initial experiences in the classroom influenced my other guiding teaching principle: ***it is as important for the teacher to be learning from the class as it is for the students to be learning from the teacher***. Ultimately, if the students are having trouble with the class, something needs to change in the way the class is structured or in the way the material is presented. There is no perfect setup for any given discipline or curriculum. As a result of this, in my few years as a teaching assistant, my style and tactics have changed considerably based on feedback I have gotten and my experimenting with classroom that have worked (and others that haven’t).
@@ -35,9 +37,5 @@ By the time I taught with Dr. Christina Williams again that following spring, I 
 
 Teaching and mentoring outside of the classroom in informal settings such as the lab has helped me to develop as an instructor and come up with ways to assess student learning creatively. In my graduate research lab, I have mentored undergraduate students in the technical and conceptual components associated with working in a neuroimmunology lab. ***When mentoring, I employ a similar approach to teaching as I’ve done in the classroom, where I first demonstrate to or teach the student whatever we are working on. I then let them student try it on their own with very few consequences (e.g. using test or practice samples) to allow them room for low stakes mistakes and encourage questions, and then once they are comfortable and confident in their abilities, I let them test their own questions or ideas.*** I have used this approach with four undergraduate students I have mentored in the lab, one of which, Anna (pictured right), defended her <a href="https://docs.google.com/document/d/1rdijO1_U46xyIA8qRsO3Ax0IPKfSg4L-D38pcIhg7xY/edit" target="_blank">senior thesis</a> last spring, and another of which, Gabe (pictured left), is a current senior working on a thesis project with me. In addition to Duke undergraduates, I have also mentored high school students for the past two summers through the Duke University Neuroscience Experience (DUNE) program, which brings in students from traditionally underrepresented groups from Durham area high schools. These mentoring opportunities have broadened my perspective on how to explain concepts and complex material to students with different levels of background knowledge (i.e. high school vs. undergraduate vs. graduate) and have helped me to continue to learn what methods are best for introducing students to neuroscience, while also encouraging their engagement and excitement for the material.
 
-![Anna and Ben](./images/anna_and_ben.jpg "Anna and Ben at Anna’s Graduation with Distinction Thesis Project Poster, Spring 2022")
-![Gabe and Ben](./images/gabe_and_ben.jpg)
-![Glia Camp 2022 Poster](./images/poster_presentation_2.jpg)
-
-
-<img src="./images/gabe_and_ben.jpg" alt="Gabe and Ben">
+![Anna and Ben](../images/anna_and_ben.jpg "Anna and Ben at Anna’s Graduation with Distinction Thesis Project Poster, Spring 2022")
+![Gabe and Ben](../images/gabe_and_ben.jpg "Gabe and Ben at Gabe’s Summer Neuroscience Program Poster Presentation, Summer 2022")
