@@ -37,5 +37,7 @@ Teaching and mentoring outside of the classroom in informal settings such as the
 
 ![Anna and Ben](./images/anna_and_ben.jpg "Anna and Ben at Anna’s Graduation with Distinction Thesis Project Poster, Spring 2022")
 ![Gabe and Ben](./images/gabe_and_ben.jpg)
+![Glia Camp 2022 Poster](./images/poster_presentation_2.jpg)
+
 
 <img src="./images/gabe_and_ben.jpg" alt="Gabe and Ben">
