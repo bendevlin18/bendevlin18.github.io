@@ -1,4 +1,3 @@
-<<<<<<< HEAD
 ---
 permalink: /research/
 title: "Research"
@@ -16,8 +15,7 @@ first experiments I was involved with in the lab were with a postdoc (Dr. Alexis
 maternal high-fat diet induces inflammation-dependent, sex-specific behavioral abnormalities in offspring. In
 males, maternal high fat diet decreased sucrose preference, which was caused by over-engulfment of
 serotonin neurons by microglia in development and could be rescued with serotonin supplementation. This
-project has culminated in a paper now available on BioRxiv, with revisions in response to reviewer
-comments from Nature in-progress<sup>1</sup>. As a follow-up to that project, I also helped with analysis of single cell
+project has culminated in a paper now available in Nature Metabolism <sup>1</sup>. As a follow-up to that project, I also helped with analysis of single cell
 RNA-sequencing data of isolated microglia and hofbauer cells (placental macrophages) which demonstrated
 shared origins and transcriptional programs between these two cell types in development<sup>2</sup>. I have also
 contributed to a more recent preprint where we found that combined exposure to air pollution and maternal
@@ -50,7 +48,6 @@ Regulates Behavior across Species. Brain, Behavior and Evolution, 1–14.
 ![image info](./images/mgla.png)
 
 
-
 ## Investigating the role of IL34 signaling on mouse brain and behavior.
 
 In my second semester after joining the lab, I became increasingly interested in how neurons and microglia
@@ -94,7 +91,6 @@ association ability but decreases the number of PV+ interneurons in adult male r
 Associations. Neuroscience Club Meeting, Meadville, PA. (invited talk)
 
 2. Devlin, B., Hollerman, J. (2019) Sensory Association and Inhibitory Interneurons in the VPA Rodent Model of
-=======
 ---
 permalink: /research/
 title: "Research"
@@ -188,5 +184,4 @@ association ability but decreases the number of PV+ interneurons in adult male r
 Associations. Neuroscience Club Meeting, Meadville, PA. (invited talk)
 
 2. Devlin, B., Hollerman, J. (2019) Sensory Association and Inhibitory Interneurons in the VPA Rodent Model of
->>>>>>> bf32e0c61215446d6a4a99eb4a23fec5fc6373d9
 Autism. Senior Thesis, Meadville, PA (senior thesis)
