@@ -45,7 +45,7 @@ modulation. bioRxiv [Preprint](https://doi.org/10.1101/2022.02.28.482288) *under
 4. Devlin, B. A., Smith, C. J., & Bilbo, S. D. (2021). Sickness and the Social Brain: How the Immune System
 Regulates Behavior across Species. Brain, Behavior and Evolution, 1–14.
 
-![microglia](./images/mgla.PNG)
+![microglia](../images/mgla.PNG)
 
 
 ## Investigating the role of IL34 signaling on mouse brain and behavior.
