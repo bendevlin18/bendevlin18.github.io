@@ -8,7 +8,7 @@ redirect_from:
   - /about.html
 ---
 
-# My research is focused on how the immune system (specifically microglial cells in the brain) interacts with the brain in development and disease. I am passionate about teaching in the classroom, reasearch and mentoring in the lab, and data accessibility and transparency.
+## My research is focused on how the immune system (specifically microglial cells in the brain) interacts with the brain in development and disease. I am passionate about teaching in the classroom, research and mentoring in the lab, and data accessibility and transparency.
 
 ><img style="float: center; max-width: 75%; padding: 20px" src="../images/mgla.PNG">
 >
