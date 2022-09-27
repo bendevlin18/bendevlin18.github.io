@@ -10,11 +10,11 @@ redirect_from:
 ---
 
 ## Microglial Developmental RNASeq 
-<img style="float: right; max-width: 50%; padding: 20px" src="../images/microglia-seq.PNG">
+<img style="float: right; max-width: 50%; padding: 20px" src="../images/microglia-seq.png">
 This website we created to show off the data from our previous publication showing that microglial transcriptomic profiles follow a defined developmental trajectory.The website allows searching of over 14,000 genes across isolated mouse microglia in males and females at 5 different ages. It also allows the user to run stats on sex differences and age differences, and export results as excel or csv datatables.
 
 
 ## Human Fetal RNASeq 
-<img style="float: right; max-width: 50%; padding: 20px" src="../images/human_fetal_rnaseq.PNG">
+<img style="float: right; max-width: 50%; padding: 20px" src="../images/human_fetal_rnaseq.png">
 We created this website to coincide with the publication of our article in Nature Metabolism. The sequencing data was from human fetal tissue with matched brain and placenta samples. We performed bulk sequencing on the two sample types, and correlated their gene expression with maternal triglyceride levels measured from the maternal placenta. The website allows a searchable list of over 16,000 human genes correlating them with triglycerides in these samples. There is also and additional function for searching sex differences.
 
