@@ -1,11 +1,12 @@
 ---
+layout: archive
 permalink: /data_access/
 title: "Data Accessibility"
 author_profile: true
 redirect_from: 
 ---
 
-***I am passionate in my work to make data accessible and openly available to both other scientists and the public.*** There is a significant barrier in the field of big data. Many conventionally trained molecular biologists do not have the skills necessary to efficiently and effectively break down the big datasets that they are so frequently generating using new techniques such as single cell and spatial transcriptomics. As a mean to this end, I have worked on projects with members of my lab to help them generate simple, user-friendly websites to allow users to access and search RNA sequencing datasets that our lab has generated.
+***I am passionate in my work to make data accessible and openly available to other scientists and the public.*** There is a significant barrier in the field of big data. Many conventionally trained molecular biologists do not have the skills necessary to efficiently and effectively break down the big datasets that they are so frequently generating using new techniques such as single cell and spatial transcriptomics. As a mean to this end, I have worked on projects with members of my lab to help them generate simple, user-friendly websites to allow users to access and search RNA sequencing datasets that our lab has generated.
 
 ---
 
