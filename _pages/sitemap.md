@@ -5,19 +5,14 @@ permalink: /sitemap/
 author_profile: true
 ---
 
-A list of all the posts and pages found on the site. For you robots out there is an [XML version]({{ base_path }}/sitemap.xml) available for digesting as well.
+A list of all the pages found on the site. 
 
-Research
-https://bendevlin18.github.io/research/
+<a href="https://bendevlin18.github.io/research/" target="_blank">Research</a>
 
-Teaching
-https://bendevlin18.github.io/teaching/
+<a href="https://bendevlin18.github.io/teaching/" target="_blank">Teaching</a>
 
-Data Accessibility
-https://bendevlin18.github.io/data_access/
+<a href="https://bendevlin18.github.io/data_access/" target="_blank">Data Accessibility</a>
 
-Diversity
-https://bendevlin18.github.io/diversity/
+<a href="https://bendevlin18.github.io/diversity/" target="_blank">Diversity</a>
 
-CV
-https://bendevlin18.github.io/cv/
+<a href="https://bendevlin18.github.io/cv/" target="_blank">CV</a>

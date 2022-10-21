@@ -26,9 +26,9 @@ function updateNav() {
     $vlinks.children().last().prependTo($hlinks);
 
     // Show the dropdown btn
-    if($btn.hasClass('hidden')) {
-      $btn.removeClass('hidden');
-    }
+    //if($btn.hasClass('hidden')) {
+      //$btn.removeClass('hidden');
+    //}
 
   // The visible list is not overflowing
   } else {
