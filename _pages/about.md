@@ -14,8 +14,8 @@ Following my undergraduate, I joined the Psychology and Neuroscience program at 
 
 ---
 
-<img style="float: left; max-width: 30%; padding: 10px" src="../images/mgla.PNG">
+<img style="float: left; max-width: 50%; padding: 10px" src="../images/mgla.PNG">
 
-<span style="color:black;font-weight:700;font-size:15px"> 
+<span style="color:black;font-weight:700;font-size:12px"> 
 This is an image showing a microglia, my favorite cell type in the brain. These little cells are the resident macrophages (immune cells) in the brain and can serve many different functions that are important for its survival. In addition to cleaning up debris and protecting the brain from infection, more recent studies have demonstrated that microglia are crucial for refining and maintaining connections between neurons. These cells control this process, which is a necessary step in neurodevelopment, but can be dangerous in cases of neurodegeneration.  
 </span>
