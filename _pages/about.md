@@ -10,9 +10,7 @@ redirect_from:
 
 I am currently a PhD Candidate in Psychology and Neuroscience at Duke University. As a member of Staci Bilbo's lab, my primary interests are focused on how the immune system (specifically microglial cells in the brain) interacts with the brain in development and disease. 
 
-I received my B.S. in Psychology and Neuroscience from Allegheny College in 2019. While there, I worked with Dr. Jeffrey Cross and Dr. Jeffrey Hollerman studying the effects of prenatal valproic acid exposure (environmental toxin) impacts the brain and behavior in rats. I also participated in two summer research fellowships and the University of Pittsburgh with Dr. Michael Palladino where I studied mitochondrial encephalomyopathies in fruit flies, and with Dr. Caroline Runyan where we studied sensory integration in mice.
-
-Outside of research, I am passionate about teaching in the classroom, mentoring in the lab, and making data more accessible to other scientists and the public.
+I received my B.S. in Psychology and Neuroscience from Allegheny College in 2019. While there, I worked with Dr. Jeffrey Cross and Dr. Jeffrey Hollerman studying the effects of prenatal valproic acid exposure (environmental toxin) impacts the brain and behavior in rats. I also participated in two summer research fellowships and the University of Pittsburgh with Dr. Michael Palladino where I studied mitochondrial encephalomyopathies in fruit flies, and with Dr. Caroline Runyan where we studied sensory integration in mice. Outside of research, I am passionate about teaching in the classroom, mentoring in the lab, and making data more accessible to other scientists and the public.
 
 ---
 
