@@ -1,5 +1,4 @@
 ---
-layout: archive
 permalink: /data_access/
 title: "Data Accessibility"
 author_profile: true
