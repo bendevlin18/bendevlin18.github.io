@@ -18,6 +18,15 @@
       });
     }
 
-    // removed theme toggle
+    // Mobile menu toggle (independent of greedy-nav script)
+    var nav = document.getElementById('site-nav');
+    if (nav) {
+      var toggleBtn = nav.querySelector('button');
+      if (toggleBtn) {
+        toggleBtn.addEventListener('click', function() {
+          nav.classList.toggle('is-open');
+        });
+      }
+    }
   });
 </script>

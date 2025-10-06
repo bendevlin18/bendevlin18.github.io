@@ -191,13 +191,13 @@
 
   button {
     position: absolute;
-    height: 0%;
+    height: 100%;
     right: 0;
-    padding: 0 0.5rem;
+    padding: 0 0.75rem;
     border: 0;
     outline: none;
-    background-color: #fff;
-    color: #fff;
+    background-color: transparent;
+    color: inherit;
     cursor: pointer;
   }
 
@@ -308,7 +308,43 @@
   }
 }
 
-/* remove forced small-screen hiding; rely on greedy-nav JS for overflow */
+/* Mobile-first: collapse into hamburger */
+@media (max-width: 767px) {
+  .greedy-nav {
+    .visible-links {
+      display: none;
+    }
+    &.is-open .visible-links {
+      display: block;
+      position: absolute;
+      top: 100%;
+      right: 0;
+      margin-top: 10px;
+      padding: 5px 0;
+      background: #fff;
+      border: 1px solid $border-color;
+      border-radius: $border-radius;
+      box-shadow: 0 0 10px rgba(#000, 0.25);
+
+      li {
+        display: block;
+      }
+
+      a {
+        margin: 0;
+        padding: 10px 20px;
+      }
+    }
+  }
+}
+
+/* On wider screens show tabs and hide hamburger */
+@include breakpoint($medium) {
+  .greedy-nav {
+    .visible-links { display: table; }
+    button { display: none; }
+  }
+}
 
 
 /*
