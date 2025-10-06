@@ -1,23 +1,9 @@
 ---
 ---
 // This front matter triggers Jekyll/Sass to build assets/css/main.css on GitHub Pages
+/* site styles */
 
-// Minimal Mistakes skin and core imports
-@import "minimal-mistakes/skins/dark"; // dark skin by default
-@import "minimal-mistakes";
-
----
----
-
-/*
- *    Minimal Mistakes Jekyll Theme
- *
- *  - Michael Rose
- *  - mademistakes.com
- *  - https://twitter.com/mmistakes
- *
-*/
-
+// Import theme partials present in _sass/
 @import "vendor/breakpoint/breakpoint"; // media query mixins
 @import "variables";
 @import "mixins";

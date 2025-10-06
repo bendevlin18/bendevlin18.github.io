@@ -33,8 +33,11 @@
   (function() {
     try {
       var stored = localStorage.getItem('theme');
-      if (stored === 'dark') document.documentElement.classList.add('theme-dark');
-      if (stored === 'light') document.documentElement.classList.remove('theme-dark');
+      if (stored === 'light') {
+        document.documentElement.classList.remove('theme-dark');
+      } else {
+        document.documentElement.classList.add('theme-dark');
+      }
     } catch (e) {}
   })();
 </script>
