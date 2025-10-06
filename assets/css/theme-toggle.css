@@ -1,0 +1,31 @@
+/* Minimal tweaks for theme toggle and dark class */
+
+.theme-toggle {
+  background: transparent;
+  border: 0;
+  cursor: pointer;
+  margin-right: 0.5rem;
+}
+
+.theme-toggle__icon { font-size: 1rem; }
+
+/* Dark theme override shim: relies on Minimal Mistakes variables already using dark skin.
+   We do not redefine colors aggressively; mainly surface minor backgrounds if needed. */
+
+html.theme-dark body {
+  background-color: #111;
+}
+
+html.theme-dark .page__footer,
+html.theme-dark .page__hero--overlay::before {
+  background-color: rgba(0,0,0,0.5);
+}
+
+/* Optional: style image captions under gallery thumbnails */
+.image-caption {
+  font-size: 0.85rem;
+  opacity: 0.85;
+  margin: 0.25rem 0 0.75rem;
+}
+
+
