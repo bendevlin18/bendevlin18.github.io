@@ -8,6 +8,30 @@
 <!-- GLightbox JS for image lightbox -->
 <script src="https://cdn.jsdelivr.net/npm/glightbox/dist/js/glightbox.min.js"></script>
 <script>
+  function initMobileMenuToggle() {
+    var nav = document.getElementById('site-nav');
+    if (!nav) return;
+    var toggleBtn = nav.querySelector('button');
+    if (!toggleBtn) return;
+    if (toggleBtn.__menuBound) return; // avoid duplicate
+    toggleBtn.__menuBound = true;
+    toggleBtn.setAttribute('aria-expanded', 'false');
+    toggleBtn.addEventListener('click', function(e) {
+      e.preventDefault();
+      e.stopPropagation();
+      var isOpen = nav.classList.toggle('is-open');
+      toggleBtn.setAttribute('aria-expanded', isOpen ? 'true' : 'false');
+    });
+    // close when clicking outside
+    document.addEventListener('click', function(evt) {
+      if (!nav.classList.contains('is-open')) return;
+      if (!nav.contains(evt.target)) {
+        nav.classList.remove('is-open');
+        toggleBtn.setAttribute('aria-expanded', 'false');
+      }
+    });
+  }
+
   document.addEventListener('DOMContentLoaded', function() {
     if (typeof GLightbox === 'function') {
       GLightbox({
@@ -19,14 +43,8 @@
     }
 
     // Mobile menu toggle (independent of greedy-nav script)
-    var nav = document.getElementById('site-nav');
-    if (nav) {
-      var toggleBtn = nav.querySelector('button');
-      if (toggleBtn) {
-        toggleBtn.addEventListener('click', function() {
-          nav.classList.toggle('is-open');
-        });
-      }
-    }
+    initMobileMenuToggle();
   });
+  // If script loads after DOMContentLoaded
+  if (document.readyState !== 'loading') { try { initMobileMenuToggle(); } catch(e){} }
 </script>
