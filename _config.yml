@@ -9,8 +9,8 @@
 locale                   : "en-US"
 title                    : "Benjamin Devlin"
 title_separator          : "-"
-name                     : &name "Benjamin Devlin, B.S. in Neuroscience"
-description              : &description "Graduate Student"
+name                     : &name "Benjamin Devlin, Ph.D. in Neuroscience"
+description              : &description "Postdoctoral Scholar"
 url                      : https://bendevlin18.github.io # the base hostname & protocol for your site e.g. "https://mmistakes.github.io"
 baseurl                  : "" # the subpath of your site, e.g. "/blog"
 repository               : "bendevlin18/bendevlin18.github.io"
@@ -80,9 +80,9 @@ analytics:
 
 # Site Author
 author:
-  name             : "Benjamin Devlin, B.S."
+  name             : "Benjamin Devlin, Ph.D."
   avatar           : "ben.png"
-  bio              : "Graduate Student in Dr. Staci Bilbo's Lab at Duke University"
+  bio              : "Postdoctoral Researcher in Dr. Staci Bilbo's Lab at Duke University"
   employer         : 
   pubmed           : "https://pubmed.ncbi.nlm.nih.gov/?term=Devlin+Benjamin"
   googlescholar    : "https://scholar.google.com/citations?user=uoB4xPMAAAAJ&hl=en&oi=sra"

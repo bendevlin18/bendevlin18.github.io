@@ -7,9 +7,11 @@ redirect_from:
   - /about.html
 ---
 
-I am currently a PhD Candidate in Psychology and Neuroscience at Duke University. As a member of Staci Bilbo's lab, my primary interests are focused on how the immune system (specifically microglial cells in the brain) interacts with the brain in development and disease. 
+I am currently working as a Postdoctoral scholar at Duke University following my PhD work as a Graduate student in Dr. Staci Bilbo's lab. My primary research interests are focused on how the immune system (specifically microglial cells in the brain) interact with the brain in development and disease. I enjoy coding and have extensive experience with wet-lab neuroscience techniques and questions. I have received both private and public funding for my work, and have published findings in many high-impact journals including Immunity and Nature Metabolism.
 
-I received my B.S. in Psychology and Neuroscience from Allegheny College in 2019. While there, I worked with Dr. Jeffrey Cross and Dr. Jeffrey Hollerman studying the effects of prenatal valproic acid exposure (environmental toxin) impacts the brain and behavior in rats. I also participated in two summer research fellowships and the University of Pittsburgh with Dr. Michael Palladino where I studied mitochondrial encephalomyopathies in fruit flies, and with Dr. Caroline Runyan where we studied sensory integration in mice. Outside of research, I am passionate about teaching in the classroom, mentoring in the lab, and making data more accessible to other scientists and the public.
+I received my B.S. in Psychology and Neuroscience from Allegheny College in 2019. While there, I worked with Dr. Jeffrey Cross and Dr. Jeffrey Hollerman studying the effects of prenatal valproic acid exposure (environmental toxin) impacts the brain and behavior in rats. I also participated in two summer research fellowships and the University of Pittsburgh with Dr. Michael Palladino where I studied mitochondrial encephalomyopathies in fruit flies, and with Dr. Caroline Runyan where we studied sensory integration in mice. 
+
+Outside of research, I am passionate about teaching in the classroom, mentoring in the lab, and making data more accessible to other scientists and the public.
 
 ---
 

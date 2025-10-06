@@ -2,3 +2,18 @@
 
 {% include analytics.html %}
 {% include /comments-providers/scripts.html %}
+
+<!-- GLightbox JS for image lightbox -->
+<script src="https://cdn.jsdelivr.net/npm/glightbox/dist/js/glightbox.min.js"></script>
+<script>
+  document.addEventListener('DOMContentLoaded', function() {
+    if (typeof GLightbox === 'function') {
+      GLightbox({
+        selector: '.glightbox',
+        touchNavigation: true,
+        loop: true,
+        plyr: { css: null, js: null }
+      });
+    }
+  });
+</script>
