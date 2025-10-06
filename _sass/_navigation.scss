@@ -191,19 +191,18 @@
 
   button {
     position: absolute;
-    height: 100%;
+    height: 0%;
     right: 0;
     padding: 0 0.5rem;
     border: 0;
     outline: none;
-    background-color: transparent;
-    color: inherit;
+    background-color: #fff;
+    color: #fff;
     cursor: pointer;
   }
 
-  /* Default to mobile: hide links, show hamburger */
   .visible-links {
-    display: none;
+    display: table;
 
     li {
       display: table-cell;
@@ -309,17 +308,7 @@
   }
 }
 
-/* At >= medium screens, show full nav and hide hamburger */
-@include breakpoint($medium) {
-  .greedy-nav {
-    .visible-links {
-      display: table;
-    }
-    button {
-      display: none;
-    }
-  }
-}
+/* remove forced small-screen hiding; rely on greedy-nav JS for overflow */
 
 
 /*
