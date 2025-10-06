@@ -259,7 +259,7 @@
     border-radius: $border-radius;
     background: #fff;
     box-shadow: 0 0 10px rgba(#000, 0.25);
-    display: none; /* ensure hidden by default */
+    display: none; /* hidden by default */
 
     a {
       margin: 0;
@@ -307,6 +307,16 @@
       }
     }
   }
+}
+
+/* When forcing toggle style, keep only title visible */
+.force-toggle {
+  .visible-links {
+    display: table;
+    > li { display: none; }
+    > li.masthead__menu-item--lg { display: table-cell; }
+  }
+  button { display: block; }
 }
 
 /* Mobile-first: collapse into hamburger */

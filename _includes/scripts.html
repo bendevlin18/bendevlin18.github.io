@@ -18,6 +18,26 @@
       });
     }
 
-    // removed custom mobile menu toggle
+    // Force nav style: toggle (move items into hidden list and show hamburger)
+    (function enableNavToggle(){
+      var nav = document.getElementById('site-nav');
+      if (!nav) return;
+      var btn = nav.querySelector('button');
+      var v = nav.querySelector('.visible-links');
+      var h = nav.querySelector('.hidden-links');
+      if (!btn || !v || !h) return;
+      if (nav.__toggleEnabled) return; // idempotent
+      nav.__toggleEnabled = true;
+      nav.classList.add('force-toggle');
+      // move all but the first (site title) into hidden list
+      var items = Array.prototype.slice.call(v.children);
+      items.slice(1).forEach(function(li){ h.appendChild(li); });
+      btn.classList.remove('hidden');
+      h.classList.add('hidden');
+      btn.addEventListener('click', function(){
+        h.classList.toggle('hidden');
+        btn.classList.toggle('close');
+      });
+    })();
   });
 </script>
