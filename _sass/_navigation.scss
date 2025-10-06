@@ -323,7 +323,6 @@
 @include breakpoint($medium) {
   .greedy-nav {
     .visible-links { display: table; }
-    button { display: none; }
   }
 }
 
