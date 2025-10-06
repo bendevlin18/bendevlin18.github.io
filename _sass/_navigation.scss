@@ -191,18 +191,19 @@
 
   button {
     position: absolute;
-    height: 0%;
+    height: 100%;
     right: 0;
     padding: 0 0.5rem;
     border: 0;
     outline: none;
-    background-color: #fff;
-    color: #fff;
+    background-color: transparent;
+    color: inherit;
     cursor: pointer;
   }
 
+  /* Default to mobile: hide links, show hamburger */
   .visible-links {
-    display: table;
+    display: none;
 
     li {
       display: table-cell;
@@ -304,6 +305,18 @@
       &:last-child {
         border-bottom: none;
       }
+    }
+  }
+}
+
+/* At >= medium screens, show full nav and hide hamburger */
+@include breakpoint($medium) {
+  .greedy-nav {
+    .visible-links {
+      display: table;
+    }
+    button {
+      display: none;
     }
   }
 }
