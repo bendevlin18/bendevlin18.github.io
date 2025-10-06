@@ -12,14 +12,64 @@
 /* Dark theme override shim: relies on Minimal Mistakes variables already using dark skin.
    We do not redefine colors aggressively; mainly surface minor backgrounds if needed. */
 
-html.theme-dark body {
-  background-color: #111;
-}
+/* Comprehensive dark overrides layered after main.css */
+html.theme-dark body { background-color: #0e0f10; color: #e6e6e6; }
+html.theme-dark a { color: #7dcfff; }
+html.theme-dark a:hover { color: #a3d8ff; }
 
-html.theme-dark .page__footer,
-html.theme-dark .page__hero--overlay::before {
-  background-color: rgba(0,0,0,0.5);
-}
+/* Masthead / nav */
+html.theme-dark .masthead { background-color: #121317; border-bottom-color: #1f2024; }
+html.theme-dark .greedy-nav { background-color: transparent; }
+html.theme-dark .greedy-nav a { color: #e6e6e6; }
+html.theme-dark .greedy-nav a:hover { color: #ffffff; }
+html.theme-dark .greedy-nav .hidden-links { background: #1a1b20; border-color: #2a2b31; }
+html.theme-dark .navicon,
+html.theme-dark .navicon:before,
+html.theme-dark .navicon:after { background: #e6e6e6; }
+
+/* Content containers */
+html.theme-dark .page,
+html.theme-dark .page__inner-wrap,
+html.theme-dark .archive,
+html.theme-dark .sidebar,
+html.theme-dark .notice,
+html.theme-dark .admonition { background-color: #121317; color: #e6e6e6; }
+html.theme-dark .page__content h1,
+html.theme-dark .page__content h2,
+html.theme-dark .page__content h3,
+html.theme-dark .page__content h4,
+html.theme-dark .page__content h5,
+html.theme-dark .page__content h6 { color: #ffffff; }
+html.theme-dark hr { border-color: #2a2b31; }
+
+/* Blocks */
+html.theme-dark pre,
+html.theme-dark code { background-color: #1a1b20; color: #e6e6e6; }
+html.theme-dark blockquote { color: #c9c9c9; border-left-color: #2a2b31; }
+
+/* Tables */
+html.theme-dark table { background: #121317; }
+html.theme-dark table th,
+html.theme-dark table td { border-color: #2a2b31; }
+html.theme-dark table tr:nth-child(even) { background: #16171b; }
+
+/* Buttons / forms */
+html.theme-dark .btn,
+html.theme-dark button,
+html.theme-dark input[type="submit"] { background: #2b2d33; color: #e6e6e6; border-color: #3a3c44; }
+html.theme-dark .btn:hover,
+html.theme-dark button:hover,
+html.theme-dark input[type="submit"]:hover { background: #343740; }
+html.theme-dark input,
+html.theme-dark select,
+html.theme-dark textarea { background: #0f1012; color: #e6e6e6; border-color: #2a2b31; }
+
+/* Footer */
+html.theme-dark .page__footer { background: #0f1012; color: #cfcfcf; border-top-color: #1f2024; }
+html.theme-dark .page__footer a { color: #9bd1ff; }
+
+/* Hero overlay */
+html.theme-dark .page__hero--overlay::before { background-color: rgba(0,0,0,0.5); }
 
 /* Optional: style image captions under gallery thumbnails */
 .image-caption {

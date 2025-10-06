@@ -9,7 +9,7 @@
 locale                   : "en-US"
 title                    : "Benjamin Devlin"
 title_separator          : "-"
-name                     : &name "Benjamin Devlin, Ph.D. in Neuroscience"
+name                     : &name "Benjamin Devlin, Ph.D."
 description              : &description "Postdoctoral Scholar"
 minimal_mistakes_skin    : "dark"
 url                      : https://bendevlin18.github.io # the base hostname & protocol for your site e.g. "https://mmistakes.github.io"
