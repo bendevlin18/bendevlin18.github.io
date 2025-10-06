@@ -65,8 +65,9 @@ $(window).resize(function() {
 });
 
 $btn.on('click', function() {
-  $hlinks.toggleClass('hidden');
+  $nav.toggleClass('is-open');
   $(this).toggleClass('close');
 });
+
 
 updateNav();
