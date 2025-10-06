@@ -18,7 +18,7 @@
 <link rel="manifest" href="{{ base_path }}/images/manifest.json?v=M44lzPylqQ">
 <link rel="mask-icon" href="{{ base_path }}/images/safari-pinned-tab.svg?v=M44lzPylqQ" color="#000000">
 <link rel="shortcut icon" href="/images/favicon.ico?v=M44lzPylqQ">
-<link rel="icon" href="{{ base_path }}/images/icon_black_mgla.png">
+<link rel="icon" href="{{ base_path }}/images/icon_magenta_mgla.png.png">
 <meta name="msapplication-TileColor" content="#000000">
 <meta name="msapplication-TileImage" content="{{ base_path }}/images/mstile-144x144.png?v=M44lzPylqQ">
 <meta name="msapplication-config" content="{{ base_path }}/images/browserconfig.xml?v=M44lzPylqQ">
@@ -28,22 +28,7 @@
 <!-- GLightbox CSS for image lightbox -->
 <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/glightbox/dist/css/glightbox.min.css">
 
-<!-- Theme pre-init: set class early to avoid flash -->
-<script>
-  (function() {
-    try {
-      var stored = localStorage.getItem('theme');
-      if (stored === 'light') {
-        document.documentElement.classList.remove('theme-dark');
-      } else {
-        document.documentElement.classList.add('theme-dark');
-      }
-    } catch (e) {}
-  })();
-</script>
-
-<!-- Theme toggle styles -->
-<link rel="stylesheet" href="{{ base_path }}/assets/css/theme-toggle.css">
+<!-- removed theme toggle -->
 
 <script type="text/x-mathjax-config"> MathJax.Hub.Config({ TeX: { equationNumbers: { autoNumber: "all" } } }); </script>
 <script type="text/x-mathjax-config">
