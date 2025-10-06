@@ -259,6 +259,7 @@
     border-radius: $border-radius;
     background: #fff;
     box-shadow: 0 0 10px rgba(#000, 0.25);
+    display: none; /* ensure hidden by default */
 
     a {
       margin: 0;
@@ -314,7 +315,8 @@
     .visible-links {
       display: none;
     }
-    &.is-open .visible-links {
+    &.is-open .visible-links,
+    &.is-open .hidden-links {
       display: block;
       position: absolute;
       top: 100%;
