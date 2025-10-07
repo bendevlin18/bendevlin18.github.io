@@ -5,12 +5,14 @@ permalink: /img_gallery/
 author_profile: true
 classes: wide
 gallery:
-  - image_path: mgla.PNG
-    alt: Microglia cell image
-    title: Microglia
-  - image_path: mgla_binary.PNG
-    alt: Microglia binary mask
-    title: Microglia (binary)
+  - image_path: IL34_SOC3_7.mp4
+    alt: Social behavior analysis example
+    title: Automated Social Behavior with Pose Estimation
+    caption: This is a test caption
+  - image_path: IL34_SOC3_7_LARGE.gif
+    alt: Social behavior analysis example gif
+    title: test title
+    caption: test caption 2
   - image_path: microglia-seq.png
     alt: Microglia sequencing visualization
     title: Microglia sequencing
