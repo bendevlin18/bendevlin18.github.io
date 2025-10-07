@@ -14,20 +14,17 @@
   {% assign gallery_layout = '' %}
 {% endif %}
 
-<figure class="{{ gallery_layout }} {{ include.class }}">
-  {% for img in gallery %}
-    {% capture image_src %}{% if img.image_path contains "://" %}{{ img.image_path }}{% else %}{{ img.image_path | prepend: "/images/" | prepend: base_path }}{% endif %}{% endcapture %}
-    {% capture link_href %}{% if img.url %}{% if img.url contains "://" %}{{ img.url }}{% else %}{{ img.url | prepend: "/images/" | prepend: base_path }}{% endif %}{% else %}{{ image_src }}{% endif %}{% endcapture %}
-    {% capture caption_text %}{% if img.caption %}{{ img.caption }}{% elsif img.title %}{{ img.title }}{% elsif img.alt %}{{ img.alt }}{% endif %}{% endcapture %}
-
-    <a href="{{ link_href | strip }}" class="glightbox" {% if caption_text %}data-glightbox="title: {{ caption_text | escape }}"{% endif %}>
-      <img src="{{ image_src | strip }}" alt="{% if img.alt %}{{ img.alt }}{% endif %}">
-    </a>
-    {% if caption_text %}
-      <div class="image-caption">{{ caption_text }}</div>
-    {% endif %}
+<div class="custom-gallery">
+  {% for item in page.gallery %}
+    <figure class="custom-gallery-item">
+      <img src="{{ item.image_path | relative_url }}" alt="{{ item.alt }}">
+      {% if item.title %}
+        <figcaption>{{ item.title }}</figcaption>
+      {% endif %}
+    </figure>
   {% endfor %}
-  {% if include.caption %}
-    <figcaption>{{ include.caption | markdownify | remove: "<p>" | remove: "</p>" }}</figcaption>
-  {% endif %}
-</figure>
+</div>
+
+{% if include.caption %}
+<p class="gallery-caption">{{ include.caption }}</p>
+{% endif %}
