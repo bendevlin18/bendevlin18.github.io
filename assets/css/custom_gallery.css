@@ -6,18 +6,22 @@
     margin: 0 auto; /* center the column on the page */
   }
   
-  .custom-gallery-item img {
-    width: 100%; /* takes full available width */
-    height: auto;
-    border-radius: 8px;
-    display: block;
-  }
-  
-  .custom-gallery-item figcaption {
-    margin-top: 0.75em;
-    font-size: 0.95em;
-    color: #555;
+  .custom-gallery-item {
     text-align: center;
   }
   
+  .custom-gallery-item figcaption {
+    margin-bottom: 0.75em; /* spacing between caption and image */
+    font-size: 1em;
+    font-weight: 600; /* optional: make titles stand out */
+    color: #333;
+  }
+  
+  .custom-gallery-item img {
+    width: 100%;
+    height: auto;
+    border-radius: 8px;
+    display: block;
+    margin: 0 auto;
+  }
   
