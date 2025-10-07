@@ -15,4 +15,4 @@ A list of all the pages found on the site.
 
 <a href="https://bendevlin18.github.io/diversity/" target="_blank">Diversity</a>
 
-<a href="https://bendevlin18.github.io/cv/" target="_blank">CV</a>
+<a href="https://bendevlin18.github.io/cv/" target="_blank">CV + Resume</a>
