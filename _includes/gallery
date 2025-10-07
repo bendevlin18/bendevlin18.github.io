@@ -17,7 +17,7 @@
 <div class="custom-gallery">
   {% for item in page.gallery %}
     <figure class="custom-gallery-item">
-      <img src="{{ item.image_path | relative_url }}" alt="{{ item.alt }}">
+      <img src="{{ item.image_path | prepend: site.baseurl | relative_url }}" alt="{{ item.alt }}">
       {% if item.title %}
         <figcaption>{{ item.title }}</figcaption>
       {% endif %}

@@ -5,16 +5,16 @@ permalink: /img_gallery/
 author_profile: true
 classes: wide
 gallery:
-  - image_path: IL34_SOC3_7_LARGE.gif
+  - image_path: /images/IL34_SOC3_7_LARGE.gif
     alt: Social behavior analysis example gif
     title: test title
-  - image_path: howtomeasurephagocytosis_large.gif
+  - image_path: /images/howtomeasurephagocytosis_large.gif
     alt: Microglia sequencing visualization
     title: Microglia sequencing
-  - image_path: snowball_slide.gif
+  - image_path: /images/snowball_slide.gif
     alt: 
     title: Human fetal RNA-seq
-  - image_path: il34_abstract.png
+  - image_path: /images/il34_abstract.png
     alt: IL34 abstract figure
     title: IL34 abstract
 ---
