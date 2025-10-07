@@ -2,7 +2,7 @@
     display: grid;
     grid-template-columns: 1fr; /* one column */
     gap: 2rem; /* increase vertical spacing between images */
-    max-width: 800px; /* optional: constrain total width for readability */
+    max-width: 2000px; /* optional: constrain total width for readability */
     margin: 0 auto; /* center the column on the page */
   }
   
