@@ -1,25 +1,23 @@
 .custom-gallery {
     display: grid;
-    grid-template-columns: repeat(auto-fit, minmax(250px, 1fr));
-    gap: 1.5rem;
-    margin-top: 1rem;
-  }
-  
-  .custom-gallery-item {
-    text-align: center;
+    grid-template-columns: 1fr; /* one column */
+    gap: 2rem; /* increase vertical spacing between images */
+    max-width: 800px; /* optional: constrain total width for readability */
+    margin: 0 auto; /* center the column on the page */
   }
   
   .custom-gallery-item img {
-    width: 100%;
+    width: 100%; /* takes full available width */
     height: auto;
     border-radius: 8px;
     display: block;
-    margin: 0 auto;
   }
   
   .custom-gallery-item figcaption {
-    margin-top: 0.5em;
-    font-size: 0.9em;
+    margin-top: 0.75em;
+    font-size: 0.95em;
     color: #555;
+    text-align: center;
   }
+  
   
