@@ -1,8 +1,49 @@
-/* Mobile nav */
+/* ── Mobile navigation ───────────────────────────────────────────── */
+
+/* On mobile: show hamburger, hide non-title items in the header row  */
 @media screen and (max-width: 767px) {
   #site-nav button {
     display: block !important;
   }
+  #site-nav .visible-links > li:not(.masthead__menu-item--lg) {
+    display: none !important;
+  }
+}
+
+/* Dropdown when hamburger is clicked (is-open class set by JS) */
+#site-nav.is-open .visible-links {
+  display: block !important;
+  position: absolute !important;
+  top: 100% !important;
+  right: 0 !important;
+  z-index: 9999 !important;
+  background: #fff;
+  border: 1px solid #d3d3d3;
+  border-radius: 4px;
+  box-shadow: 0 0 10px rgba(0,0,0,0.25);
+  padding: 5px;
+  min-width: 200px;
+  max-width: calc(100vw - 2rem);
+}
+#site-nav.is-open .visible-links > li {
+  display: block !important;
+  border-bottom: 1px solid #f2f3f3;
+}
+#site-nav.is-open .visible-links > li:last-child {
+  border-bottom: none;
+}
+#site-nav.is-open .visible-links > li.masthead__menu-item--lg {
+  display: none !important;
+}
+#site-nav.is-open .visible-links a {
+  display: block !important;
+  padding: 10px 20px !important;
+  margin: 0 !important;
+  color: #7a8288;
+}
+#site-nav.is-open .visible-links a:hover {
+  background: #f2f3f3;
+  color: #555;
 }
 
 .custom-gallery {

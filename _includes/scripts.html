@@ -1,73 +1,23 @@
-<script src="{{ base_path }}/assets/js/main.min.js"></script>
-<!-- Fallback to theme JS (greedy-nav) -->
-<script src="https://cdn.jsdelivr.net/gh/mmistakes/minimal-mistakes@4.24.0/assets/js/main.min.js" defer></script>
-
 {% include analytics.html %}
 {% include /comments-providers/scripts.html %}
 
 <!-- GLightbox JS for image lightbox -->
 <script src="https://cdn.jsdelivr.net/npm/glightbox/dist/js/glightbox.min.js"></script>
 <script>
-  document.addEventListener('DOMContentLoaded', function() {
-    if (typeof GLightbox === 'function') {
-      GLightbox({
-        selector: '.glightbox',
-        touchNavigation: true,
-        loop: true,
-        plyr: { css: null, js: null }
-      });
-    }
+  if (typeof GLightbox === 'function') {
+    GLightbox({ selector: '.glightbox', touchNavigation: true, loop: true });
+  }
 
-    // Mobile nav
-    (function() {
-      var nav = document.getElementById('site-nav');
-      if (!nav) return;
-      var btn = nav.querySelector('button');
-      var vlinks = nav.querySelector('.visible-links');
-      var hlinks = nav.querySelector('.hidden-links');
-      if (!btn || !vlinks || !hlinks) return;
-
-      // Capture all non-title items in order (greedy-nav may have already moved some to hlinks)
-      var navItems = [];
-      Array.prototype.slice.call(vlinks.querySelectorAll('li:not(.masthead__menu-item--lg)')).forEach(function(li) { navItems.push(li); });
-      Array.prototype.slice.call(hlinks.querySelectorAll('li')).forEach(function(li) { if (navItems.indexOf(li) === -1) navItems.push(li); });
-
-      function arrange() {
-        if (window.innerWidth < 768) {
-          // Mobile: move all nav items into the dropdown
-          navItems.forEach(function(li) { if (!hlinks.contains(li)) hlinks.appendChild(li); });
-          btn.style.display = 'block';
-        } else {
-          // Desktop: restore items to visible-links
-          navItems.forEach(function(li) { if (!vlinks.contains(li)) vlinks.appendChild(li); });
-          btn.style.display = '';
-          hlinks.style.display = '';
-          hlinks.style.visibility = '';
-        }
-      }
-
-      btn.addEventListener('click', function(e) {
-        if (hlinks.style.display === 'block') {
-          hlinks.style.display = '';
-          hlinks.style.visibility = '';
-        } else {
-          hlinks.style.display = 'block';
-          hlinks.style.visibility = 'visible';
-        }
-        e.stopPropagation();
-      });
-
-      document.addEventListener('click', function() {
-        hlinks.style.display = '';
-        hlinks.style.visibility = '';
-      });
-
-      arrange();
-      var resizeTimer;
-      window.addEventListener('resize', function() {
-        clearTimeout(resizeTimer);
-        resizeTimer = setTimeout(arrange, 100);
-      });
-    })();
-  });
+  // Mobile nav toggle — runs here at bottom of body, DOM is already ready
+  var _nav = document.getElementById('site-nav');
+  var _btn = _nav && _nav.querySelector('button');
+  if (_nav && _btn) {
+    _btn.addEventListener('click', function(e) {
+      _nav.classList.toggle('is-open');
+      e.stopPropagation();
+    });
+    document.addEventListener('click', function() {
+      _nav.classList.remove('is-open');
+    });
+  }
 </script>
