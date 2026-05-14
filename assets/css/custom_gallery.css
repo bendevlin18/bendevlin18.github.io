@@ -1,3 +1,10 @@
+/* Mobile nav */
+@media screen and (max-width: 767px) {
+  #site-nav button {
+    display: block !important;
+  }
+}
+
 .custom-gallery {
     display: grid;
     grid-template-columns: 1fr; /* one column */
