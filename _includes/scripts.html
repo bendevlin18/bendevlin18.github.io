@@ -8,16 +8,57 @@
     GLightbox({ selector: '.glightbox', touchNavigation: true, loop: true });
   }
 
-  // Mobile nav toggle — runs here at bottom of body, DOM is already ready
+  // Mobile nav — direct inline-style manipulation, no CSS class dependency
   var _nav = document.getElementById('site-nav');
   var _btn = _nav && _nav.querySelector('button');
-  if (_nav && _btn) {
+  var _vlinks = _nav && _nav.querySelector('.visible-links');
+
+  if (_nav && _btn && _vlinks) {
+    var _navOpen = false;
+
+    function openNav() {
+      _navOpen = true;
+      // Hide site title in dropdown
+      var title = _vlinks.querySelector('li.masthead__menu-item--lg');
+      if (title) title.style.display = 'none';
+      // Show each nav item as a block
+      var items = _vlinks.querySelectorAll('li:not(.masthead__menu-item--lg)');
+      Array.prototype.slice.call(items).forEach(function(li) {
+        li.style.display = 'block';
+        li.style.borderBottom = '1px solid #f2f3f3';
+      });
+      if (items.length) items[items.length - 1].style.borderBottom = 'none';
+      // Position the list as a dropdown
+      _vlinks.style.display = 'block';
+      _vlinks.style.position = 'absolute';
+      _vlinks.style.top = '100%';
+      _vlinks.style.right = '0';
+      _vlinks.style.zIndex = '9999';
+      _vlinks.style.background = '#fff';
+      _vlinks.style.border = '1px solid #d3d3d3';
+      _vlinks.style.borderRadius = '4px';
+      _vlinks.style.boxShadow = '0 0 10px rgba(0,0,0,0.25)';
+      _vlinks.style.padding = '5px';
+      _vlinks.style.minWidth = '200px';
+    }
+
+    function closeNav() {
+      _navOpen = false;
+      // Clear all inline styles on items and the list
+      var items = _vlinks.querySelectorAll('li');
+      Array.prototype.slice.call(items).forEach(function(li) {
+        li.style.cssText = '';
+      });
+      _vlinks.style.cssText = '';
+    }
+
     _btn.addEventListener('click', function(e) {
-      _nav.classList.toggle('is-open');
+      _navOpen ? closeNav() : openNav();
       e.stopPropagation();
     });
+
     document.addEventListener('click', function() {
-      _nav.classList.remove('is-open');
+      if (_navOpen) closeNav();
     });
   }
 </script>
