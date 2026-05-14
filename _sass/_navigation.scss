@@ -174,7 +174,7 @@
 
 .greedy-nav {
   position: relative;
-  min-width: 250px;
+  min-width: 0;
   background: $background-color;
 
   a {
@@ -309,14 +309,10 @@
   }
 }
 
-/* When forcing toggle style, keep only title visible */
-.force-toggle {
-  .visible-links {
-    display: table;
-    > li { display: none; }
-    > li.masthead__menu-item--lg { display: table-cell; }
-  }
-  button { display: block; }
+/* Show hidden-links dropdown when the nav is open */
+.greedy-nav.is-open .hidden-links {
+  display: block;
+  visibility: visible;
 }
 
 /* On wider screens show tabs and hide hamburger */
